@@ -1,0 +1,36 @@
+@import "../variables.scss";
+
+.dataSections {
+  margin-bottom: 3rem;
+  .fake-height {
+    min-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h5 {
+      margin-bottom: 0px;
+    }
+  }
+  .invoice {
+    background: $main-normal;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    button {
+      min-width: 200px;
+      background-color: unset !important;
+      color: black;
+      border: unset;
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  }
+}

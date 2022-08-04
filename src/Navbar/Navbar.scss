@@ -1,0 +1,15 @@
+@import "../variables.scss";
+
+.navbar {
+  overflow: hidden;
+  background-color: $main-normal;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 4rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}

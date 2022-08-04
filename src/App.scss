@@ -1,0 +1,41 @@
+@import "./variables";
+@import "~bootstrap/scss/bootstrap";
+
+.App {
+  font-size: 2rem;
+  direction: rtl;
+}
+
+.container {
+  margin-top: 5rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label {
+  font-size: 0.8rem;
+}
+.modal-dialog {
+  top: 60px;
+  .modal-header {
+    border-bottom: unset !important;
+  }
+  .modal-body {
+    text-align: right;
+  }
+  .modal-footer {
+    justify-content: center;
+    button {
+      background-color: $main-normal;
+      min-width: 200px !important;
+    }
+  }
+}
+
+.change-directoin {
+  direction: rtl;
+}
